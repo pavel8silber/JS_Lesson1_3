@@ -1,4 +1,4 @@
-// Pavel Silber ( HW 1-2)
+// Pavel Silber ( HW 1-3)
 
 var lettersArray = ['A','B','C','D','E','F','G','H'];
 var numbersArray = ['1','2','3','4','5','6','7','8'];
@@ -45,24 +45,6 @@ window.onload = function() {
 
 	createMatrix();	
 
-
-
-	// document.addEventListener('click', function(e) {
-	// 	var adr = e.target.id;
-	// 	console.log(e.target);
- //    	//cellAdress.lastChild.innerText = '(e.target)';
- //    	document.getElementById('cellAdress').innerHTML = <div>(e.target)</div>;
-
-   //  	function myFunction() {
-   //  		document.addEventListener('click', function(e) {
-			// var adr = e.target.id;
-			// console.log(e.target.id);
-	  //   	//cellAdress.lastChild.innerText = '(e.target)';
-	  //   	document.getElementById('cellAdress').innerText = e.target.id;
-
-   //  			}
-   //  		);
-   //  	}	
 
    document.addEventListener('click', function(e) {
    		var adr = e.target;
